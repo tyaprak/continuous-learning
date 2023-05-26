@@ -1,25 +1,24 @@
-## Exam Tips
+# Exam Tips
 
-### Create objects
+## Create objects
 
-Declerative
----
-kubectl apply -f nginx.yaml
+### Declerative
+- kubectl apply -f nginx.yaml
 
-Imperative
----
-kubectl run --image=nginx nginx
-kubectl create deployment --image=nginx nginx
-kubectl expose deployment nginx --port 80
+### Imperative
 
-### Update objects
+- kubectl run --image=nginx nginx
+- kubectl create deployment --image=nginx nginx
+- kubectl expose deployment nginx --port 80
 
-Declerative
----
-kubectl apply -f nginx.yaml
+## Update objects
 
-Imperative
----
-kubectl edit deployment nginx
-kubectl scale deployment nginx --replicas=5
-kubectl set image deployment nginx nginx=nginx:1.18
+### Declerative
+
+- kubectl apply -f nginx.yaml
+
+### Imperative
+
+- kubectl edit deployment nginx
+- kubectl scale deployment nginx --replicas=5
+- kubectl set image deployment nginx nginx=nginx:1.18
