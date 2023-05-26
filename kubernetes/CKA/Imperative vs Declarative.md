@@ -3,7 +3,7 @@
 ## Create objects
 
 ### Declerative
-- kubectl apply -f nginx.yaml
+> kubectl apply -f nginx.yaml
 
 ### Imperative
 
@@ -17,7 +17,7 @@
 
 ### Declerative
 
-- kubectl apply -f nginx.yaml
+> kubectl apply -f nginx.yaml
 
 ### Imperative
 
