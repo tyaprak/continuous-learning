@@ -10,6 +10,6 @@
 - Multiple filtering
 > kubectl get all --selector env=prod,bu=finance,tier=frontend
 
-_ REMEMBER _
+** REMEMBER **
 ===========
 **matchLabel** is the most important value in the yaml file in order a replicaset to match with the relevant pods.
