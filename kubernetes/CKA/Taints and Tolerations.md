@@ -22,3 +22,11 @@ tolerations:
   effect: NoSchedule
 ```
 >> kubectl apply -f bee.yaml
+
+
+> kubectl get pods --watch
+> kubectl edit node controlplane --> Remove the Taints
+> or
+> kubectl taint node controlplane node-role.kubernetes.io/master:NoSchedule- 
+
+The dash (-) at the end is untainting the node controlplane which will allow "Pending" pods to *run*.
