@@ -18,3 +18,7 @@ Important information to check static pods:
 Find "--config=" part and cat the config file, grep **staticPodPath**
 
 on the node01, greenbox.yaml file was located under /etc/just-messing-with-you/ folder. Delete that yaml file and you will get rid of static-greenbox pod working on node01.
+
+Note that a static pods kind will be:
+ownerReferences:
+- kind: Node
