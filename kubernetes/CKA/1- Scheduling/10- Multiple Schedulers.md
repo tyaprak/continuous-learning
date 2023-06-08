@@ -12,3 +12,5 @@
 ```yaml
 schedulerName: my-scheduler
 ```
+
+https://github.com/kubernetes/community/blob/master/contributors/devel/sig-scheduling/scheduling_code_hierarchy_overview.md
