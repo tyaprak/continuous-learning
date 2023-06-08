@@ -12,4 +12,5 @@ for all others:
 >> kubectl create -f deploy/1.8+/
 
 > kubectl top node
+
 > kubectl top pod
