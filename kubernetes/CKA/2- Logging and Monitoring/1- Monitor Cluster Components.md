@@ -8,8 +8,8 @@ If you are using minikube:
 
 for all others:
 
-> git clone https://github.com/kubernetes-incubator/metrics-serve
-> kubectl create -f deploy/1.8+/
+> git clone https://github.com/kubernetes-incubator/metrics-server
+>> kubectl create -f deploy/1.8+/
 
 > kubectl top node
 > kubectl top pod
