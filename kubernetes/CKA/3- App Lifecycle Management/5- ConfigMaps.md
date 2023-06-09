@@ -10,7 +10,7 @@ Two ways to create a configmap:
 
 Imperative:
 > kubectl create configmap app-config --from-literal=APP_COLOR=blue --from-literal=APP_MODE=prod ... 
-                                      --from-file=app_config.properties
+>>                                      --from-file=app_config.properties
 
 Declerative:
 > kubectl create -f 
