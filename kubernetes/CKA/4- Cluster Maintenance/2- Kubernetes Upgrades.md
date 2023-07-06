@@ -12,6 +12,8 @@
 
 > apt-get upgrade
 
+- Tag as Unschedulable the node node01
+
 ---
 
 # Node01
