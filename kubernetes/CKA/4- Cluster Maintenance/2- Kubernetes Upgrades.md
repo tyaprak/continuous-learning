@@ -1,6 +1,6 @@
 # Kubernetes Upgrades
 
-> kubeadm upgrade plan
+> kubeadm upgrade plan 
 
 - Remote version is the latest version.
 
