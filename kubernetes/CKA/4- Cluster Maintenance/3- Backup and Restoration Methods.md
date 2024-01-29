@@ -22,7 +22,7 @@ etcd snapshot save snapshot.db
 etcd snapshot status snapshot.db 
 '''
 
-Retoration:
+Restoration:
 
 '''bash
 systemctl stop kube-apiserver
@@ -45,3 +45,12 @@ systemctl start kube-apiserver
 DO NOT FORGET:
 
 export ETCDCTL_API=3 && etcdctl snapshot save snapshot.db --endpoints=https://127.0.0.1:2379 --cacert=/etc/etcd/ca.crt --cert=/etc/etcd/etcd-server.crt --key=/etc/etcd/etcd-server.key
+
+
+--------
+
+# PRACTICE
+'''bash
+kubectl config get-clusters
+kubectl config use-context cluster1
+'''
