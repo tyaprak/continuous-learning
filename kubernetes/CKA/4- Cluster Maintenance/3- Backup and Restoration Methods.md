@@ -51,6 +51,9 @@ export ETCDCTL_API=3 && etcdctl snapshot save snapshot.db --endpoints=https://12
 
 # PRACTICE
 '''bash
+kubectl get nodes
+kubectl config view
+
 kubectl config get-clusters
 kubectl config use-context cluster1
 '''
